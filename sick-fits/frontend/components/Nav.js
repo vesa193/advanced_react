@@ -1,26 +1,12 @@
-import Link from 'next/link'
-import NavStyles from '../components/styles/NavStyles'
+import Link from 'next/link';
 
-const Nav = () => {
+export default function Nav() {
   return (
-    <NavStyles>
-      <Link href="/items">
-        <a>Items</a>
-      </Link>
-      <Link href="/sell">
-        <a>Sell</a>
-      </Link>
-      <Link href="/signup">
-        <a>Signup</a>
-      </Link>
-      <Link href="/orders">
-        <a>Orders</a>
-      </Link>
-      <Link href="/me">
-        <a>Me</a>
-      </Link>
-    </NavStyles>
-  )
+    <nav>
+      <Link href="/products">Products</Link>
+      <Link href="/sell">Sell</Link>
+      <Link href="/orders">Orders</Link>
+      <Link href="/account">Account</Link>
+    </nav>
+  );
 }
- 
-export default Nav;
