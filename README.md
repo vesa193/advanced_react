@@ -1,2 +1,13 @@
 # advanced_react
-Web application, which contains full-stack, technologies which we could use for back end and client side.
+Fullstack application wich contains preety interesting stack.
+
+Frontend:
+- React
+- Next.js
+- Style components
+
+Backend:
+- Node.js
+- MongoDB
+- GraphQl
+- Keystone (cms)
